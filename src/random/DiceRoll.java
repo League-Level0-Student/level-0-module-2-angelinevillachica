@@ -51,7 +51,7 @@ public class DiceRoll {
 
 			// 1. Make randomChoice equal to a random number between 1 and 6
 			
-int randomChoice=new Random().nextInt(6)+1;
+int randomChoice=new Random().nextInt(7)+1;
 			// 2. Fix the code below so that it displays the correct image
 		     if (randomChoice == 1) {
 				label.setIcon(oneImg);
